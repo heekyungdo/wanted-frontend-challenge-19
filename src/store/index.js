@@ -1,13 +1,9 @@
-import {createStore} from 'react-redux'
+import { configureStore } from '@reduxjs/toolkit'
+import todoReducer from './todo'
 
-const createReducer = (state,action) => {
- if(action.type='input') {
 
- } 
-
- return state;
-}
-
-const store = createStore()
+const store = configureStore({
+    reducer: { todos: todoReducer }
+});
 
 export default store;

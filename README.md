@@ -1,7 +1,8 @@
-과제 1 todo list 만들기
-과제 2
-DOM과 Virtual DOM을 설명해주세요.
-리액트의 특징을 설명해주세요.
-flux 패턴에 대하여 설명해주세요.
-상태관리에 대하여 설명해주세요.
-궁금한 것에 대하여 알려주세요.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
